@@ -2,22 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce un numero");
-        int numero = sc.nextInt();
+
+        //Por ejemplo 52  -> 0 =1 1= 2 2=4 3=8 4=16 5 =32 y 6 =64 !!!!!ç
 
 
-        if (numero == 1) {
-            System.out.println("Introduce un numero para el 1");
-            int numero2 = sc.nextInt();
-            int i = 0;
-            while (Math.pow(2, i) < numero2) {
-              i++;
-            }
-            System.out.println(i);
-            //Vas a decirme el exponente mas cercano de 2
-
-        }
+        int a= (int) Math.pow(4,23);
 
     }
 }
